@@ -1,2 +1,3 @@
-# Includes basic web apps like stopwatch, theme switcher, temperature converter, and word counter.
-# Portfolio website.
+<h1> Includes Basic Web Apps.</h2>
+  <h3> Stopwatch. <br> Theme Switcher. <br> Temperature Converter. <br> Word/Sentence Counter.</h3>
+<h2> Portfolio Website. </h2>
