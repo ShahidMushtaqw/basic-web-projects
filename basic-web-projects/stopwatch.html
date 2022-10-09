@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stopwatch Page of Web Programming Project">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Project, College, NIT Srinagar, Web Programming">
+    <meta name="author" content="SHAHID MUSHTAQ">
+    <title>Stopwatch - SHAHID MUSHTAQ</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/stopwatch.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="active">SHAHID MUSHTAQ</a>
+        <a href="index.html">Home</a>
+        <a href="#!">Projects</a>
+        <a href="#!">About</a>
+        <a href="https://wa.me/+917889968405">Contact</a>
+        <a href="#!" class="icon" onclick="toggleNavbar()">Menu</a>
+    </nav>
+    <div style="text-align: center;">
+        <h1>Stopwatch</h1>
+    </div>
+    <div id="time" class="time"></div>
+    <div class="buttons">
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="src/script/script.js"></script>
+    <script src="src/script/stopwatch.js"></script>
+</body>
+</html>

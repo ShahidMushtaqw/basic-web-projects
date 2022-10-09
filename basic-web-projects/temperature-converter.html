@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temperature Converter Page of Web Programming Project">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Project, College, NIT Srinagar, Web Programming">
+    <meta name="author" content="SHAHID MUSHTAQ">
+    <title>Temperature Converter - SHAHID MUSHTAQ</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/temperature-converter.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="active">SHAHID MUSHTAQ</a>
+        <a href="index.html">Home</a>
+        <a href="#!">Projects</a>
+        <a href="#!">About</a>
+        <a href="https://wa.me/+917889968405">Contact</a>
+        <a href="#!" class="icon" onclick="toggleNavbar()">Menu</a>
+    </nav>
+    <div style="text-align: center;">
+        <h1>Temperature Converter</h1>
+    </div>
+    <table>
+        <thead>
+            <th style="width: 35%"></th>
+            <th style="width: 35%"></th>
+            <th style="width: 15%"></th>
+            <th style="width: 15%"></th>
+        </thead>
+        <tr>
+            <td>
+                <label for="celcius">Temperature in Celcius: </label>
+            </td>
+            <td>
+                <input type="text" id="celcius" value="0" placeholder="Celsius">
+            </td>
+            <td align="center">
+                <span id="cf">0</span> °F
+            </td>
+            <td align="center">
+                <span id="ck">0</span> K
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="celcius">Temperature in Fahrenheit: </label>
+            </td>
+            <td>
+                <input type="text" id="fahrenheit" value="0" placeholder="Fahrenheit">
+            </td>
+            <td align="center">
+                <span id="fc">0</span> °C
+            </td>
+            <td align="center">
+                <span id="fk">0</span> K
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="celcius">Temperature in Kelvin: </label>
+            </td>
+            <td>
+                <input type="text" id="kelvin" value="0" placeholder="Kelvin">
+            </td>
+            <td align="center">
+                <span id="kc">0</span> °C
+            </td>
+            <td align="center">
+                <span id="kf">0</span> °F
+            </td>
+        </tr>
+    </table>
+    <script src="src/script/script.js"></script>
+    <script src="src/script/temperature-converter.js"></script>
+</body>
+</html>

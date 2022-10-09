@@ -1,0 +1,23 @@
+.time {
+    font-size: 100px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    border: 5px solid rgb(74, 62, 62);
+    background-color: rgb(117, 117, 117);
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(131, 103, 114);
+}
